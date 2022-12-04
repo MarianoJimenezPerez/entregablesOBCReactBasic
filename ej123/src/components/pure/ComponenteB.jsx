@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const ComponenteB = ({ contacto, hdc }) => {
   return (
@@ -12,6 +13,11 @@ const ComponenteB = ({ contacto, hdc }) => {
       </button>
     </div>
   );
+};
+
+ComponenteB.propTypes = {
+  contacto: PropTypes.object,
+  hdc: PropTypes.func,
 };
 
 export default ComponenteB;
