@@ -1,0 +1,17 @@
+body{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.square{
+  display: flex;
+  color: #ffffff;
+  flex-direction: column;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 255px;
+  height: 255px;
+}
